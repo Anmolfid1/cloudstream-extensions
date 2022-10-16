@@ -9,7 +9,7 @@ import com.lagradost.cloudstream3.utils.loadExtractor
 import org.jsoup.Jsoup
 
 class NineAnimeProvider : MainAPI() {
-    override var mainUrl = "https://9anime.id"
+    override var mainUrl = "https://9anime.gs"
     override var name = "9Anime"
     override val hasMainPage = true
     override val hasChromecastSupport = true
